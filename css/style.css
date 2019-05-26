@@ -4,10 +4,28 @@ body {
 
 .title {
     text-align: center;
+    color: white;
 }
 .main {
     text-align: center;
     background-color: white;
     margin: 50px 100px;
     padding: 10px;
+}
+
+.first_part {
+  margin-right: 125px;
+}
+
+#number {
+  margin-right: 125px;
+}
+
+.test {
+  margin-left: 50px;
+}
+
+.second_part {
+  text-align: left;
+  margin-left: 465px;
 }
