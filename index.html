@@ -13,12 +13,12 @@
     <div class="main">
       <p id="description">Let us know how we can improve freeCodeCamp</p>
       <form id="survey-form">
-        Name:
+        <label id="name-label">Name:</label>
         <input type="text" id="name" required><br>
-        Email:
+        <label id="email-label">Email:</label>
         <input type="email" id="email" required><br>
-        Age:
-        <input type="number" id="number" required><br>
+        <label id="number-label">Age:</label>
+        <input type="number" id="number" required min="18" max="100"><br>
       </form>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
