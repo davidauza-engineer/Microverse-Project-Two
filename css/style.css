@@ -13,19 +13,14 @@ body {
     padding: 10px;
 }
 
-.first_part {
-  margin-right: 125px;
+#submit {
+    color: grey;
+    margin: 15px;
+    padding: 15px;
 }
 
-#number {
-  margin-right: 125px;
-}
-
-.test {
-  margin-left: 50px;
-}
-
-.second_part {
-  text-align: left;
-  margin-left: 465px;
+textarea {
+    width: 350px;
+    height: 50px;
+    color: grey;
 }
